@@ -1,4 +1,4 @@
-# LuaFlakes-info
+# LuaFlakes-attr
 Information attributes storage for LuaFlakes module installation system
 
 # Overview
