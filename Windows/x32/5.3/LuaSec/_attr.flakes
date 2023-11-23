@@ -1,0 +1,23 @@
+{
+	Name = "LuaSec",
+	Description = "LuaSec is a binding for OpenSSL library to provide TLS/SSL communication. It takes an already established TCP connection and creates a secure session between the peers.",
+	Websites = {
+		"https://github.com/lunarmodules/luasec"
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.3",
+	ModVER = "1.3.2",
+	Dependencies = {
+		{"luasocket","3.1.0"}
+	},
+	Comments = "Compiled with OpenSSL version 3.1.4",
+	FileIndex = {
+		{"libcrypto-3.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/68c117a/Windows/x32/5.3/LuaSec/libcrypto-3.dll"}},
+		{"libssl-3.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/68c117a/Windows/x32/5.3/LuaSec/libssl-3.dll"}},
+		{"ssl.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/68c117a/Windows/x32/5.3/LuaSec/ssl.dll"}},
+		{"ssl.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/68c117a/Windows/x32/5.3/LuaSec/ssl.lua"}},
+		{"ssl","DIR","COMMON"},
+		{"ssl/https.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/68c117a/Windows/x32/5.3/LuaSec/ssl/https.lua"}}
+	}
+}
