@@ -1,0 +1,17 @@
+{
+	Name = "luafilesystem",
+	ModDIR = "lfs",
+	Description = "LuaFileSystem is a Lua library developed to complement the set of functions related to file systems offered by the standard Lua distribution.",
+	Websites = {
+		"https://github.com/lunarmodules/luafilesystem",
+		"https://lunarmodules.github.io/luafilesystem/"
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.3",
+	ModVER = "1.8.0",
+	Dependencies = {},
+	FileIndex = {
+		{"lfs.dll","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/a22a092/Windows/x32/5.3/luafilesystem/lfs.dll"}},
+	}
+}
