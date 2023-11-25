@@ -13,6 +13,6 @@
 	FileIndex = {
 		{"url","DIR","MODULE"},
 		{"url/net","DIR","MODULE"},
-		{"url/net/url.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/golgote/neturl/d79bb5f/url.lua"}},
+		{"url/net/url.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/golgote/neturl/d79bb5f/lib/net/url.lua"}},
 	}
 }
