@@ -1,0 +1,16 @@
+{
+	Name = "net.url",
+	ModDIR = "net",
+	Description = "A Robust URL Parser and Builder for Lua",
+	Websites = {
+		"https://github.com/golgote/neturl",
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.3",
+	ModVER = "1.1.0",
+	Dependencies = {},
+	FileIndex = {
+		{"url/net/url.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/golgote/neturl/d79bb5f/url.lua"}},
+	}
+}

@@ -1,0 +1,20 @@
+{
+	Name = "oauth2",
+	ModDIR = "oauth2",
+	Description = "OAuth 2.0 Authentication module for Lua",
+	Websites = {
+		"https://github.com/aryajur/oauth2"
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.3",
+	ModVER = "1.23.01.17",
+	Dependencies = {
+		{"LuaSec","1.3.2"},
+		{"json","0.1.2"},
+		{"net.url","1.1.0"}
+	},
+	FileIndex = {
+		{"oauth2.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/oauth2/0f4d18b/src/oauth2.lua"}},
+	}
+}
