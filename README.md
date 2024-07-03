@@ -73,3 +73,9 @@ return {
 		2. Source info. For WEB it is the direct URL of the file
 9. Dependencies and their versions
 10. Comment - Any additional information
+
+# To add a new Lua Version
+1. Upload the binaries in the right LuaFlakes bin repository
+2. Add the entry in index.lua in this repository root
+3. Create a _attr.flakes file for the Lua or if already there update it. Note: To get the raw file link from github, just go to the file and then replace github.com with raw.githubusercontent.com
+4. Commit the changes to Github.

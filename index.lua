@@ -16,6 +16,7 @@ return {
 		"Windows/x32/5.3/luasocket",
 	},
 	lua = {
-		"Windows/x32/5.3/Lua"
+		"Windows/x32/5.3/Lua",
+		"Windows/x32/5.4/Lua"
 	}
 }
