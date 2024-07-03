@@ -77,5 +77,5 @@ return {
 # To add a new Lua Version
 1. Upload the binaries in the right LuaFlakes bin repository
 2. Add the entry in index.lua in this repository root
-3. Create a _attr.flakes file for the Lua or if already there update it. Note: To get the raw file link from github, just go to the file and then replace github.com with raw.githubusercontent.com
+3. Create a _attr.flakes file for the Lua or if already there update it. Note: To get the raw file link from github, see this post: https://github.com/orgs/community/discussions/44370#discussioncomment-4688431
 4. Commit the changes to Github.
