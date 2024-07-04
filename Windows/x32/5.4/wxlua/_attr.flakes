@@ -1,0 +1,17 @@
+{
+	Name = "wxlua",
+	ModDIR = "wx",
+	Description = "Lua bindings for wxWidgets cross-platform GUI toolkit",
+	Websites = {
+		"https://github.com/pkulchenko/wxlua",
+		"https://www.wxwidgets.org/"
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.4",
+	ModVER = "3.2.0.2",
+	Dependencies = {},
+	FileIndex = {
+		{"wx.dll","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/wxlua/wx.dll"}},
+	}
+}

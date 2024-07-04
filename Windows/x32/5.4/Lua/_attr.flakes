@@ -10,10 +10,10 @@
 	ModVER = "5.4",
 	Dependencies = {},
 	FileIndex = {
-		{"lua.exe","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/lua.exe"}},
-		{"lua54.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/lua54.dll"}},
-		{"luac.exe","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/luac.exe"}},
-		{"libgcc_s_dw2-1.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/libgcc_s_dw2-1.dll"}},
-		{"libwinpthread-1.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/libwinpthread-1.dll"}},
+		{"lua.exe","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/Lua/lua.exe"}},
+		{"lua54.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/Lua/lua54.dll"}},
+		{"luac.exe","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/Lua/luac.exe"}},
+		{"libgcc_s_dw2-1.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/Lua/libgcc_s_dw2-1.dll"}},
+		{"libwinpthread-1.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/Lua/libwinpthread-1.dll"}},
 	}
 }
