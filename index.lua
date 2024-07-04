@@ -14,6 +14,7 @@ return {
 		"Windows/x32/5.3/luafilesystem",
 		"Windows/x32/5.3/LuaSec",
 		"Windows/x32/5.3/luasocket",
+		"Windows/x32/5.3/wxlua",
 	},
 	lua = {
 		"Windows/x32/5.3/Lua",
