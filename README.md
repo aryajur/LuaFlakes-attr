@@ -60,13 +60,14 @@ return {
 5. OS - Windows, Linux
 6. LuaVER - Version of Lua it works with
 7. ModVER - Version number of the Mod
+8. ModDIR - (Optional) If given the directory with this name will be created and all MODULE marked files will be inside this
 8. FileIndex - List of all files of the module. Each list item is a table with the following information:
 	1. File name - At the first index. This contains the file name and path by which to save the file in the indicated place.
  	2. "FILE"/"DIR" string at the second index to indicate this entry describes a file or a directory
 	3. At the third index, the place it has to be placed:
 		Places can be:
-		1. Module place - "MODULE"
-		2. Common DLL - "COMMON"
+		1. Module place - "MODULE" - Creates a folder with the name ModDIR if given and places them in that directory
+		2. Common DLL - "COMMON" - Places the file in the lua executable directory (__Lua)
 	3. This entry describes where to copy the file from and is only present for "FILE" entries. This entry will be a array with 2 entries:
 		1. Type or source:
 			1. "WEB" - download from internet.
@@ -83,3 +84,9 @@ Also make sure to embed the wx.manifest file using the mt tool.
 2. Add the entry in index.lua in this repository root
 3. Create a _attr.flakes file for the Lua or if already there update it. Note: To get the raw file link from github, see this post: https://github.com/orgs/community/discussions/44370#discussioncomment-4688431
 4. Commit the changes to Github.
+
+# To add a new Module
+1. Upload the files in the right LuaFlakes bin respository.
+2. Add the entry in index.lua in this repository root
+3. Create the _attr.flakes file for the module and place it in the right folder.
+4. Commit the changes to github.
