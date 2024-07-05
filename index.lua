@@ -6,6 +6,8 @@ return {
 		"all/all/5.1/tableUtils",
 		"all/all/5.2/tableUtils",
 		"all/all/5.3/tableUtils",
+		"all/all/5.3/argparse",
+		"all/all/5.4/argparse",
 		"all/all/5.3/diskOP",
 		"all/all/5.3/oauth2",
 		"all/all/5.3/json",

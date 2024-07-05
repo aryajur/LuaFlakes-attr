@@ -1,0 +1,17 @@
+{
+	Name = "argparse",
+	ModDIR = "argparse",
+	Description = "Feature-rich command line parser for Lua",
+	Websites = {
+		"https://github.com/luarocks/argparse",
+		"https://argparse.readthedocs.io/en/stable/index.html",
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.3",
+	ModVER = "0.7.1",
+	Dependencies = {},
+	FileIndex = {
+		{"argparse.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/luarocks/argparse/27967d7/src/argparse.lua"}},
+	}
+}
