@@ -1,0 +1,28 @@
+{
+	Name = "luasocket",
+	Description = "LuaSocket is a Lua extension library that is composed by two parts: a C core that provides support for the TCP and UDP transport layers, and a set of Lua modules that add support for functionality commonly needed by applications that deal with the Internet.",
+	Websites = {
+		"https://lunarmodules.github.io/luasocket/",
+		"https://github.com/lunarmodules/luasocket"
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.4",
+	ModVER = "3.1.0",
+	Dependencies = {},
+	FileIndex = {
+		{"socket.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket.lua"}},
+		{"mime.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/mime.lua"}},
+		{"ltn12.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/ltn12.lua"}},
+		{"socket","DIR","COMMON"},
+		{"socket/core.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/core.dll"}},
+		{"socket/ftp.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/ftp.lua"}},
+		{"socket/headers.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/headers.lua"}},
+		{"socket/http.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/http.lua"}},
+		{"socket/smtp.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/smtp.lua"}},
+		{"socket/tp.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/tp.lua"}},
+		{"socket/url.lua","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/socket/url.lua"}},
+		{"mime","DIR","COMMON"},
+		{"mime/core.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3e7fe7a/Windows/x32/5.4/luasocket/mime/core.dll"}},
+	}
+}
