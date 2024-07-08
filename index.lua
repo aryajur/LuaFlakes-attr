@@ -14,6 +14,7 @@ return {
 		"all/all/5.3/net.url",
 		-- Modules that include binary files
 		"Windows/x32/5.3/luafilesystem",
+		"Windows/x32/5.4/luafilesystem",
 		"Windows/x32/5.3/LuaSec",
 		"Windows/x32/5.3/luasocket",
 		"Windows/x32/5.4/luasocket",
