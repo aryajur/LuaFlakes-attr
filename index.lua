@@ -20,6 +20,7 @@ return {
 		"Windows/x32/5.3/luafilesystem",
 		"Windows/x32/5.4/luafilesystem",
 		"Windows/x32/5.3/LuaSec",
+		"Windows/x32/5.4/LuaSec",
 		"Windows/x32/5.3/luasocket",
 		"Windows/x32/5.4/luasocket",
 		"Windows/x32/5.3/wxlua",
