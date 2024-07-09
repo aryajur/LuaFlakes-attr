@@ -1,0 +1,17 @@
+{
+	Name = "json",
+	ModDIR = "json",
+	Description = "A lightweight JSON library for Lua",
+	Websites = {
+		"https://github.com/aryajur/json.lua",
+		"https://github.com/rxi/json.lua"
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.4",
+	ModVER = "0.1.2",
+	Dependencies = {},
+	FileIndex = {
+		{"json.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/json.lua/75127d2/json.lua"}},
+	}
+}

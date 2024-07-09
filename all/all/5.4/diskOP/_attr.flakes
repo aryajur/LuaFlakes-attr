@@ -1,0 +1,18 @@
+{
+	Name = "diskOP",
+	ModDIR = "diskOP",
+	Description = "Disk Operations library based on LuaFileSystem",
+	Websites = {
+		"https://github.com/aryajur/diskOP"
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.4",
+	ModVER = "1.23.11.24",
+	Dependencies = {
+		{"luafilesystem","1.8.0"}
+	},
+	FileIndex = {
+		{"diskOP.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/diskOP/79c2ba9/src/diskOP.lua"}},
+	}
+}

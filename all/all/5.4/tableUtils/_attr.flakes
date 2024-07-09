@@ -1,0 +1,16 @@
+{
+	Name = "tableUtils",
+	ModDIR = "tableUtils",
+	Description = "Useful utilities for Lua Tables",
+	Websites = {
+		"https://github.com/aryajur/tableUtils"
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.4",
+	ModVER = "1.23.07.16",
+	Dependencies = {},
+	FileIndex = {
+		{"tableUtils.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/tableUtils/7b5857e25d0953971d919d1254ff253517185d31/src/tableUtils.lua"}},
+	}
+}
