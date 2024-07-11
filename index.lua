@@ -16,6 +16,7 @@ return {
 		"all/all/5.4/json",
 		"all/all/5.3/net.url",
 		"all/all/5.4/net.url",
+		"all/all/5.4/penlight",
 		-- Modules that include binary files
 		"Windows/x32/5.3/luafilesystem",
 		"Windows/x32/5.4/luafilesystem",
