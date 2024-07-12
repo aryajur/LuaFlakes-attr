@@ -10,8 +10,9 @@
 	OS = "Windows",
 	LuaVER = "5.4",
 	ModVER = "3.2.0.2",
+	Comment = "Compiled with wxWidgets 3.2.5",
 	Dependencies = {},
 	FileIndex = {
-		{"wx.dll","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/main/Windows/x32/5.4/wxlua/wx.dll"}},
+		{"wx.dll","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/779c51a/Windows/x32/5.4/wxlua/wx.dll"}},
 	}
 }

@@ -27,6 +27,7 @@ return {
 		"Windows/x32/5.4/luasocket",
 		"Windows/x32/5.3/wxlua",
 		"Windows/x32/5.4/wxlua",
+		"Windows/x32/5.4/lpeg",
 	},
 	lua = {
 		"Windows/x32/5.3/Lua",
