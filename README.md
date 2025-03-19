@@ -77,10 +77,10 @@ return {
 
 # To add a new Lua Version
 1. Upload the binaries in the right LuaFlakes bin repository. Make sure the binaries are compiled using the myconf_flakes.h Lua configuration to update the module search paths. For example for mingw the compile command looks like this:
-```
-> make mingw "MYCFLAGS=-DLUA_USER_H="'""\"myconf_flakes.h\"""'""
-```
-Also make sure to embed the wx.manifest file using the mt tool.
+    ```
+    > make mingw "MYCFLAGS=-DLUA_USER_H="'""\"myconf_flakes.h\"""'""
+    ```
+    Also make sure to embed the wx.manifest file using the mt tool.
 2. Add the entry in index.lua in this repository root
 3. Create a _attr.flakes file for the Lua or if already there update it. Note: To get the raw file link from github, see this post: https://github.com/orgs/community/discussions/44370#discussioncomment-4688431
 4. Commit the changes to Github.
