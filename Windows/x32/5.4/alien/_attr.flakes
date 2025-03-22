@@ -10,7 +10,7 @@
 	OS = "Windows",
 	LuaVER = "5.4",
 	ModVER = "0.8.1",
-	modDIR = "alien",
+	ModDIR = "alien",
 	Dependencies = {},
 	FileIndex = {
 		{"alien.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/alien.lua"}},
