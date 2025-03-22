@@ -1,0 +1,20 @@
+{
+	Name = "alien",
+	Description = "Alien is a Foreign Function Interface (FFI) for Lua. An FFI lets you call functions in dynamic libraries (.so, .dylib, .dll, etc.) from Lua code without having to write, compile and link a C binding from the library to Lua. In other words, it lets you write extensions that call out to native code using just Lua.",
+	Websites = {
+		"https://mascarenhas.github.io/alien/",
+		"https://github.com/mascarenhas/alien",
+		"https://github.com/libffi/libffi"
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.3",
+	ModVER = "0.7.1",
+	modDIR = "alien",
+	Dependencies = {},
+	FileIndex = {
+		{"alien.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/alien.lua"}},
+		{"alien_c.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/alien_c.dll"}},
+		{"libffi-8.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/libffi-8.dll"}},
+	}
+}
