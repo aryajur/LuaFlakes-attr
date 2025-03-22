@@ -14,7 +14,7 @@
 	Dependencies = {},
 	FileIndex = {
 		{"alien.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/alien.lua"}},
-		{"alien_c.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.4/alien/alien_c.dll"}},
+		{"alien_c.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2da64af/Windows/x32/5.4/alien/alien_c.dll"}},
 		{"libffi-8.dll","FILE","COMMON",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/2fa7585/Windows/x32/5.3/alien/libffi-8.dll"}},
 	}
 }
