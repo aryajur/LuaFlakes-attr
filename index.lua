@@ -19,6 +19,7 @@ return {
 		"all/all/5.4/penlight",
 		-- Modules that include binary files
 		"Windows/x32/5.3/alien",
+		"Windows/x32/5.4/alien",
 		"Windows/x32/5.3/luafilesystem",
 		"Windows/x32/5.4/luafilesystem",
 		"Windows/x32/5.3/LuaSec",
