@@ -1,0 +1,16 @@
+{
+	Name = "dkjson",
+	ModDIR = "dkjson",
+	Description = "JSON module for Lua made by David Kolf",
+	Websites = {
+		"https://github.com/aryajur/dkjson"
+	},
+	Architecture = "all",
+	OS = "all",
+	LuaVER = "5.3",
+	ModVER = "2.5",
+	Dependencies = {},
+	FileIndex = {
+		{"dkjson.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/dkjson/5f56299/src/dkjson.lua"}},
+	}
+}

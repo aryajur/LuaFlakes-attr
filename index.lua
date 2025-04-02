@@ -10,6 +10,8 @@ return {
 		"all/all/5.3/argparse",
 		"all/all/5.4/argparse",
 		"all/all/5.3/diskOP",
+		"all/all/5.3/dkjson",
+		"all/all/5.4/dkjson",
 		"all/all/5.3/oauth2",
 		"all/all/5.4/oauth2",
 		"all/all/5.3/json",
