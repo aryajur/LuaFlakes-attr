@@ -1,0 +1,16 @@
+{
+	Name = "lpeg",
+	ModDIR = "lpeg",
+	Description = "LPeg is a pattern-matching library for Lua, based on Parsing Expression Grammars (PEGs)",
+	Websites = {
+		"https://www.inf.puc-rio.br/~roberto/lpeg/",
+	},
+	Architecture = "32",
+	OS = "Windows",
+	LuaVER = "5.3",
+	ModVER = "1.1.0",
+	Dependencies = {},
+	FileIndex = {
+		{"lpeg.dll","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/aryajur/LuaFlakes-bin1/3140730/Windows/x32/5.3/lpeg/lpeg.dll"}},
+	}
+}
