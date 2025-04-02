@@ -8,11 +8,11 @@
 	Architecture = "all",
 	OS = "all",
 	LuaVER = "5.4",
-	ModVER = "1.1.0",
+	ModVER = "1.2",
 	Dependencies = {},
 	FileIndex = {
 		{"url","DIR","MODULE"},
 		{"url/net","DIR","MODULE"},
-		{"url/net/url.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/golgote/neturl/d79bb5f/lib/net/url.lua"}},
+		{"url/net/url.lua","FILE","MODULE",{"WEB","https://raw.githubusercontent.com/golgote/neturl/5071266/lib/net/url.lua"}},
 	}
 }
